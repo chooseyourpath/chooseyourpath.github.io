@@ -197,15 +197,16 @@
     <br>------------------------<br><br>
     <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
         <label>Play as 'default' with buttons:</label>
-        <input type="hidden" name="playbutton" value readonly>
+        <input type="hidden" name="playbutton" value="true" readonly>
         <input type="hidden" name="readerID" value="default" readonly />
         <input type="hidden" name="customerID" value="customer" readonly>
+        https://chooseyourpath.github.io/customer/17135_2/17135_2.html?readerID=default&bookID=17135_2&customerID=customer
         <button tabindex=16>Start</button>
     </form>
     <br>------------------------<br><br>
     <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
         <label>Play as</label><br>
-        <input type="hidden" name="playbutton" value readonly>
+        <input type="hidden" name="playbutton" value="true" readonly>
         <label>Teacher's Name:</label>
         <input required type="text" name="readerID" list="allTeachers" tabindex=26 />
         <input type="hidden" name="customerID" value="customer" readonly>
@@ -214,7 +215,7 @@
     <br>------------------------<br><br>
     <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
         <label>Replay as</label><br>
-        <input type="hidden" name="playbutton" value readonly>
+        <input type="hidden" name="playbutton" value="true" readonly>
         <label>Student's Name:</label>
         <input required type="text" name="readerID" list='allStudents' tabindex=38 />
         <input type="hidden" name="customerID" value="customer" readonly>
@@ -237,10 +238,10 @@
         <label>Play as
             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
             Record as</label><br>
-        <input type="hidden" name="playbutton" value readonly>
+        <input type="hidden" name="playbutton" value="true" readonly>
         <label>Teacher's Name:</label>
         <input required type="text" name="readerID" list="allTeachers" tabindex=26 />
-        <input type="hidden" name="recordbutton" value readonly>
+        <input type="hidden" name="recordbutton" value="true" readonly>
         <label>Student's Name:</label>
         <input required type="text" id="name" name="recorderID" list='allStudents' tabindex=27 />
         <input type="hidden" name="customerID" value="customer" readonly>
@@ -249,7 +250,7 @@
     <br>------------------------<br><br>
     <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
         <label>Record as</label><br>
-        <input type="hidden" name="recordbutton" value readonly>
+        <input type="hidden" name="recordbutton" value="true" readonly>
         <label>Student's Name:</label>
         <input required type="text" name="recorderID" list='allStudents' tabindex=250 />
         <input type="hidden" name="customerID" value="customer" readonly>
@@ -260,7 +261,7 @@
         onsubmit="appendDate('uniqueID1')">
         <label>Create a unique recording (uses the current time to uniquely identify it) </label><br>
         <label>Record as</label><br>
-        <input type="hidden" name="recordbutton" value readonly>
+        <input type="hidden" name="recordbutton" value="true" readonly>
         <label>Student's Name:</label>
         <input required type="text" id="uniqueID1" name="recorderID" list="allStudents" tabindex=55 />
         <input type="hidden" name="customerID" value="customer" readonly>
@@ -270,7 +271,7 @@
     <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
         <label>Replay any recorded version Note: rerun ./populateAllRecordersBasedOnBook.sh
             [bookID]</label><br>
-        <input type="hidden" name="playbutton" value readonly>
+        <input type="hidden" name="playbutton" value="true" readonly>
         <label>Student's Name:</label>
         <input required type="text" id="name" name="readerID" list='allRecorders' tabindex=150 />
         <input type="hidden" name="customerID" value="customer" readonly>
@@ -295,10 +296,10 @@
         <label>Play
             as&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOptional:Save
             as</label><br>
-        <input id="googlestate" name="googlebutton" value type="hidden" readonly>
+        <input id="googlestate" name="googlebutton" value="true" type="hidden" readonly>
         <label>Google Voice Name:</label>
         <input required tabindex=26 type="text" id="temp4" name="currentGoogleVoiceID" list="allGoogleReaders" />
-        <input type="hidden" name="recordbutton" value readonly>
+        <input type="hidden" name="recordbutton" value="true" readonly>
         <label> Different Name:</label>
         <input tabindex=27 type="text" id="name" name="recorderID" list='allStudents' />
         <input type="hidden" id="customerID" name="customerID" value="customer" readonly>
