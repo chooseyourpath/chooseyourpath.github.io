@@ -7,7 +7,7 @@
         function populateAllRecordersFromGeneratedList() {
             //console.debug("populateAllRecordersFromGeneratedList");
             var file = new XMLHttpRequest();
-            var recordersForBookID = "http://localhost:8080/chooseyourpath-private.github.io/allRecordersGenerated_" + bookID + ".txt";
+            var recordersForBookID = "allRecordersGenerated_" + bookID + ".txt";
             file.open("GET", recordersForBookID, true);
             file.send(null);
             file.onreadystatechange = function () {
