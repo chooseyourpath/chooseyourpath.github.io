@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript">
+        var bookID = "TwelveDaysOfChristmas";
+        function populateAllRecordersFromGeneratedList() {
+            //console.debug("populateAllRecordersFromGeneratedList");
+            var file = new XMLHttpRequest();
+            var recordersForBookID = "http://localhost:8080/chooseyourpath-private.github.io/allRecordersGenerated_" + bookID + ".txt";
+            file.open("GET", recordersForBookID, true);
+            file.send(null);
+            file.onreadystatechange = function () {
+                //console.debug("populateAllRecordersFromGeneratedList:readyState");
+                if (file.readyState === 4) {  // Makes sure the document is ready to parse
+                    //console.debug("populateAllRecordersFromGeneratedList=4");
+                    if (file.status === 200) {  // Makes sure it's found the file
+                        //console.debug("populateAllRecordersFromGeneratedList=200");
+                        var text = file.responseText;
+                        //process the file
+                        var lines = text.split(/[\r\n]+/g);
+                        var tempDataList = "";
+                        if (lines.length) {
+                            for (var i = 0, len = lines.length; i < len; i++) {
+                                if ("" != lines[i]) {
+                                    tempDataList += '<option value="' + lines[i] + '" />';
+                                } else {
+                                    //console.debug("output: not adding empty value");
+                                }
+                                //console.debug("tempDataList=" + tempDataList);
+                            }
+                            document.getElementById('allRecorders').innerHTML = tempDataList;
+
+                        }
+                    }
+                } else {
+                    //console.debug("populateAllRecordersFromGeneratedList:readyState:else");
+                }
+            }
+
+        };
+        window.onload = populateAllRecordersFromGeneratedList();
+
+        function populateAllStudentsFromList() {
+            //console.debug("populateAllStudentsFromList");
+            var file = new XMLHttpRequest();
+            file.open("GET", "http://localhost:8080/chooseyourpath-private.github.io/allStudents.txt", true);
+            file.send(null);
+            file.onreadystatechange = function () {
+                //console.debug("populateAllStudentsFromList:readyState");
+                if (file.readyState === 4) {  // Makes sure the document is ready to parse
+                    //console.debug("populateAllStudentsFromList=4");
+                    if (file.status === 200) {  // Makes sure it's found the file
+                        //console.debug("populateAllStudentsFromList=200");
+                        var text = file.responseText;
+                        //process the file
+                        var lines = text.split(/[\r\n]+/g);
+                        var tempDataList = "";
+                        if (lines.length) {
+                            for (var i = 0, len = lines.length; i < len; i++) {
+                                if ("" != lines[i]) {
+                                    tempDataList += '<option value="' + lines[i] + '" />';
+                                } else {
+                                    //console.debug("output: not adding empty value");
+                                }
+                                //console.debug("tempDataList=" + tempDataList);
+                            }
+                            document.getElementById('allStudents').innerHTML = tempDataList;
+
+                        }
+                    }
+                } else {
+                    //console.debug("populateAllStudentsFromList:readyState:else");
+                }
+            }
+
+        };
+        window.onload = populateAllStudentsFromList();
+
+        function populateAllTeachersFromList() {
+            //console.debug("populateAllTeachersFromList");
+            var file = new XMLHttpRequest();
+            file.open("GET", "http://localhost:8080/chooseyourpath-private.github.io/allTeachers.txt", true);
+            file.send(null);
+            file.onreadystatechange = function () {
+                //console.debug("populateAllTeachersFromList:readyState");
+                if (file.readyState === 4) {  // Makes sure the document is ready to parse
+                    //console.debug("populateAllTeachersFromList=4");
+                    if (file.status === 200) {  // Makes sure it's found the file
+                        //console.debug("populateAllTeachersFromList=200");
+                        var text = file.responseText;
+                        //process the file
+                        var lines = text.split(/[\r\n]+/g);
+                        var tempDataList = "";
+                        if (lines.length) {
+                            for (var i = 0, len = lines.length; i < len; i++) {
+                                if ("" != lines[i]) {
+                                    tempDataList += '<option value="' + lines[i] + '" />';
+                                } else {
+                                    //console.debug("output: not adding empty value");
+                                }
+                                //console.debug("tempDataList=" + tempDataList);
+                            }
+                            document.getElementById('allTeachers').innerHTML = tempDataList;
+
+                        }
+                    }
+                } else {
+                    //console.debug("populateAllTeachersFromList:readyState:else");
+                }
+            }
+        };
+        window.onload = populateAllTeachersFromList();
+
+        function populateAllGoogleReadersFromList() {
+            console.debug("populateAllGoogleReadersFromList");
+            console.debug("assumes format of GoogleReaders is [readerid],[readerName to display]");
+            var file = new XMLHttpRequest();
+            file.open("GET", "http://localhost:8080/chooseyourpath-private.github.io/allGoogleReaders.txt", true);
+            file.send(null);
+            file.onreadystatechange = function () {
+                //console.debug("populateAllGoogleReadersFromList:readyState");
+                if (file.readyState === 4) {  // Makes sure the document is ready to parse
+                    //console.debug("populateAllGoogleReadersFromList=4");
+                    if (file.status === 200) {  // Makes sure it's found the file
+                        //console.debug("populateAllGoogleReadersFromList=200");
+                        var text = file.responseText;
+                        //process the file
+                        var lines = text.split(/[\r\n]+/g);
+                        var tempDataList = "";
+                        if (lines.length) {
+                            for (var i = 0, len = lines.length; i < len; i++) {
+                                if ("" != lines[i]) {
+                                    var values = lines[i].split(/,/g);
+                                    console.log("values=" + values);
+                                    //https://www.w3schools.com/tags/att_option_value.asp
+                                    tempDataList += '<option value="' + values[0] + '" >' + values[1] + ' </option>';
+                                } else {
+                                    //console.debug("output: not adding empty value");
+                                }
+                                //console.debug("tempDataList=" + tempDataList);
+                            }
+                            document.getElementById('allGoogleReaders').innerHTML = tempDataList;
+
+                        }
+                    }
+                } else {
+                    //console.debug("populateAllGoogleReadersFromList:readyState:else");
+                }
+            }
+        };
+        window.onload = populateAllGoogleReadersFromList();
+
+        function pad2(n) { // always returns a string
+            return (n < 10 ? '0' : '') + n;
+        } var sysDate = new Date(); var currentDateTime = "_" + sysDate.getFullYear() +
+            pad2(sysDate.getMonth() + 1) + pad2(sysDate.getDate()) + "_" + pad2(sysDate.getHours()) +
+            pad2(sysDate.getMinutes()) + pad2(sysDate.getSeconds()); //console.debug("setting date=" + currentDateTime);
+
+        function appendDate(domID) {
+            console.debug(" appendDate:domID=" + domID);
+            console.debug(" appendDate:document.getElementById(domID).value=" + document.getElementById(domID).value);
+            var newName = document.getElementById(domID).value + currentDateTime;
+            console.debug(" appendDate:newName=" + newName);
+            document.getElementById(domID).value = newName;
+            console.debug(" appendDate:Updated document.getElementById(domID).value=" + document.getElementById(domID).value);
+        }
+
+    </script>
+</head>
+
+<body>
+    <!-- Pull downs make it easier to enter the user Name -->
+    <datalist id="allStudents">
+    </datalist>
+    <datalist id="allRecorders">
+    </datalist>
+    <datalist id="allTeachers">
+    </datalist>
+    <datalist id="allGoogleReaders">
+    </datalist>
+    <!-- Play your weBook -->
+    <form action="index.html" method="get" style="display: inline;">
+        <button tabindex=1>Back to other books</button>
+    </form>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <button
+        onclick="alert('This ebook was created by Dave Neufeld - Victoria, BC.\n I wanted to create a tool to make the creation of learning materials (like ebooks) easier. \n Reach out to me via readr@daveneufeld.com');">
+        Click here to find out Who
+        Made This and Why?
+    </button>
+    <hr>
+    <b>Title: Twelve Days Of Christmas ------ BookID: TwelveDaysOfChristmas </b>
+    <hr>
+    <b>Student Resources</b>
+    <br>------------------------<br><br>
+    <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
+        <label>Play as 'default' with buttons:</label>
+        <input type="hidden" name="playbutton" value readonly>
+        <input type="hidden" name="readerID" value="default" readonly />
+        <input type="hidden" name="customerID" value="customer" readonly>
+        <button tabindex=16>Start</button>
+    </form>
+    <br>------------------------<br><br>
+    <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
+        <label>Play as</label><br>
+        <input type="hidden" name="playbutton" value readonly>
+        <label>Teacher's Name:</label>
+        <input required type="text" name="readerID" list="allTeachers" tabindex=26 />
+        <input type="hidden" name="customerID" value="customer" readonly>
+        <button tabindex=28>Start Playing</button>
+    </form>
+    <br>------------------------<br><br>
+    <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
+        <label>Replay as</label><br>
+        <input type="hidden" name="playbutton" value readonly>
+        <label>Student's Name:</label>
+        <input required type="text" name="readerID" list='allStudents' tabindex=38 />
+        <input type="hidden" name="customerID" value="customer" readonly>
+        <button tabindex=39>Start Playing </button>
+    </form>
+    <!-- <br>------------------------<br><br>
+    <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
+        <label>Replay as (no buttons,no other feedback)</label><br>
+        <label>Student's Name:</label>
+        <input tabindex=48 type="text" id="name" name="readerID" list='allStudents' />
+        <input id="customerID" name="customerID" value="customer" type="hidden" readonly>
+        <button tabindex=49>Start Playing </button>
+    </form>
+    <br> -->
+    <hr>
+    <hr>
+    <b>Teacher Resources:</b>
+    <br>------------------------<br><br>
+    <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
+        <label>Play as
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            Record as</label><br>
+        <input type="hidden" name="playbutton" value readonly>
+        <label>Teacher's Name:</label>
+        <input required type="text" name="readerID" list="allTeachers" tabindex=26 />
+        <input type="hidden" name="recordbutton" value readonly>
+        <label>Student's Name:</label>
+        <input required type="text" id="name" name="recorderID" list='allStudents' tabindex=27 />
+        <input type="hidden" name="customerID" value="customer" readonly>
+        <button tabindex=28>Start Recording</button>
+    </form>
+    <br>------------------------<br><br>
+    <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
+        <label>Record as</label><br>
+        <input type="hidden" name="recordbutton" value readonly>
+        <label>Student's Name:</label>
+        <input required type="text" name="recorderID" list='allStudents' tabindex=250 />
+        <input type="hidden" name="customerID" value="customer" readonly>
+        <button tabindex=260>Start Recording</button>
+    </form>
+    <br>------------------------<br><br>
+    <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get"
+        onsubmit="appendDate('uniqueID1')">
+        <label>Create a unique recording (uses the current time to uniquely identify it) </label><br>
+        <label>Record as</label><br>
+        <input type="hidden" name="recordbutton" value readonly>
+        <label>Student's Name:</label>
+        <input required type="text" id="uniqueID1" name="recorderID" list="allStudents" tabindex=55 />
+        <input type="hidden" name="customerID" value="customer" readonly>
+        <button tabindex=56>Start Recording</button>
+    </form>
+    <br>------------------------<br><br>
+    <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
+        <label>Replay any recorded version Note: rerun ./populateAllRecordersBasedOnBook.sh
+            [bookID]</label><br>
+        <input type="hidden" name="playbutton" value readonly>
+        <label>Student's Name:</label>
+        <input required type="text" id="name" name="readerID" list='allRecorders' tabindex=150 />
+        <input type="hidden" name="customerID" value="customer" readonly>
+        <button tabindex=160>Start Playing </button>
+    </form>
+    <hr>
+    <hr>
+    <b>Advanced Features</b>
+    <br>------------------------<br><br>
+    <label>Test Google Voices</label><br>
+    <label>Select Voice:</label>
+    <input type="text" id="googleVoiceSelector" name="currentGoogleVoiceID" list="allGoogleReaders"
+        onclick="this.value=''" tabindex=26 />
+    <button
+        onclick="var googleVoiceChoice=document.getElementById('googleVoiceSelector').value; 
+                 if (''!=googleVoiceChoice){ var audioFile='https://cloud.google.com/text-to-speech/docs/audio/'+googleVoiceChoice+'.mp3';mySound = new Audio(audioFile);mySound.play();document.getElementById('temp4').setAttribute('value',googleVoiceChoice);
+        } else { alert('Select a Voice in order to hear a sample');console.log('no googleVoiceChoice selected so I cannot play a sample');}">
+        Hear Sample </button>
+    <br>------------------------<br><br>
+
+    <form action="customer/TwelveDaysOfChristmas/TwelveDaysOfChristmas.html" method="get">
+        <label>Play
+            as&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOptional:Save
+            as</label><br>
+        <input id="googlestate" name="googlebutton" value type="hidden" readonly>
+        <label>Google Voice Name:</label>
+        <input required tabindex=26 type="text" id="temp4" name="currentGoogleVoiceID" list="allGoogleReaders" />
+        <input type="hidden" name="recordbutton" value readonly>
+        <label> Different Name:</label>
+        <input tabindex=27 type="text" id="name" name="recorderID" list='allStudents' />
+        <input type="hidden" id="customerID" name="customerID" value="customer" readonly>
+        <button tabindex=28>Start Recording</button>
+    </form>
+
+</body>

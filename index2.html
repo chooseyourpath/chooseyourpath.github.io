@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+    <!-- Play your weBook -->
+    Play a locally saved weBook <br>
+    <form action="customer/17135/17135.html" method="get">
+        <button>Start Playing </button>
+        <input id="readingstate" name="playbutton" value type="hidden" readonly>
+        <label for="name">Reader's Name:</label>
+        <input type="text" id="name" name="readerID">
+        <label>Title: T'was the night before Christmas</Label>
+        <input id="bookID" name="bookID" value="17135" readonly type="hidden">
+        <input id="customerID" name="customerID" value="customer" type="hidden" readonly>
+    </form>
+    <form action="customer/14407/14407.html" method="get">
+        <button>Start Playing </button>
+        <input id="readingstate" name="playbutton" value type="hidden" readonly>
+        <label for="name">Reader's Name:</label>
+        <input type="text" id="name" name="readerID">
+        <label>Title: The Tale of Benjamin Bunny</Label>
+        <input id="bookID" name="bookID" value="14407" readonly type="hidden">
+        <input id="customerID" name="customerID" value="customer" type="hidden" readonly>
+    </form>
+
+    <hr>
+    Record a weBook locally <br>
+    <form action="customer/17135/17135.html" method="get">
+        <button>Start Recording </button>
+        <input id="readingstate" name="recordbutton" value type="hidden" readonly>
+        <label for="name">Recorder's Name:</label>
+        <input type="text" id="name" name="recorderID">
+        <label>Title: T'was the night before Christmas</Label>
+        <input id="bookID" name="bookID" value="17135" readonly type="hidden">
+        <input id="customerID" name="customerID" value="customer" type="hidden" readonly>
+
+    </form>
+    <form action="customer/14407/14407.html" method="get">
+        <button>Start Recording </button>
+        <input id="readingstate" name="recordbutton" value type="hidden" readonly>
+        <label for="name">Recorder's Name:</label>
+        <input type="text" id="name" name="recorderID">
+        <label>Title: The Tale of Benjamin Bunny</Label>
+        <input id="bookID" name="bookID" value="14407" readonly type="hidden">
+        <input id="customerID" name="customerID" value="customer" type="hidden" readonly>
+    </form>
+    <hr>
+    Play as one person but record as another <br>
+    <form action="customer/14407/14407.html" method="get">
+        <button>Start Recording</button>
+
+        <input id="readingstate" name="playbutton" value type="hidden" readonly>
+        <label for="name">Reader's Name:</label>
+        <input type="text" id="name" name="readerID">
+
+        <input id="readingstate" name="recordbutton" value type="hidden" readonly>
+        <label for="name">Recorder's Name:</label>
+        <input type="text" id="name" name="recorderID">
+
+        <label>Title: The Tale of Benjamin Bunny</Label>
+        <input id="bookID" name="bookID" value="14407" readonly type="hidden">
+        <input id="customerID" name="customerID" value="customer" type="hidden" readonly>
+    </form>
+
+</body>
