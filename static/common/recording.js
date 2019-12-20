@@ -177,9 +177,11 @@ function pauseOthersAndTogglePlay(id) {
 	console.debug('stopping all other audio from playing');
 	var sounds = document.getElementsByTagName('audio');
 	for (i = 0; i < sounds.length; i++) {
-		sounds[i].pause();
-		sounds[i].currentTime = 0;
-		console.debug('pauseOthersAndTogglePlay:stopping:=' + sounds[i].id);
+		if (sounds[i].id != id) {
+			sounds[i].pause();
+			sounds[i].currentTime = 0;
+			console.debug('pauseOthersAndTogglePlay:stopping:=' + sounds[i].id);
+		}
 	}
 	//console.debug("if ready, toggle the play state, else try waiting for load");
 	if (ele.readyState) {
