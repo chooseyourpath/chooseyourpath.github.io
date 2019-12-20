@@ -44,7 +44,7 @@
         function populateAllStudentsFromList() {
             //console.debug("populateAllStudentsFromList");
             var file = new XMLHttpRequest();
-            file.open("GET", "http://localhost:8080/chooseyourpath-private.github.io/allStudents.txt", true);
+            file.open("GET", "allStudents.txt", true);
             file.send(null);
             file.onreadystatechange = function () {
                 //console.debug("populateAllStudentsFromList:readyState");
@@ -80,7 +80,7 @@
         function populateAllTeachersFromList() {
             //console.debug("populateAllTeachersFromList");
             var file = new XMLHttpRequest();
-            file.open("GET", "http://localhost:8080/chooseyourpath-private.github.io/allTeachers.txt", true);
+            file.open("GET", "allTeachers.txt", true);
             file.send(null);
             file.onreadystatechange = function () {
                 //console.debug("populateAllTeachersFromList:readyState");
@@ -116,7 +116,7 @@
             console.debug("populateAllGoogleReadersFromList");
             console.debug("assumes format of GoogleReaders is [readerid],[readerName to display]");
             var file = new XMLHttpRequest();
-            file.open("GET", "http://localhost:8080/chooseyourpath-private.github.io/allGoogleReaders.txt", true);
+            file.open("GET", "allGoogleReaders.txt", true);
             file.send(null);
             file.onreadystatechange = function () {
                 //console.debug("populateAllGoogleReadersFromList:readyState");
