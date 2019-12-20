@@ -1,0 +1,382 @@
+Mother Goose's Nursery Rhymes
+########## initscript
+########## objects
+########## pages
+page.intro
+    <hide>Find more books at Readr.ca</hide>
+page_s.1.first
+    p.1_1
+        <div class="figcenter" style="width: 449px;">
+        <img src="images/cover.jpg" width="449" height="600" alt="Cover" />
+        </div>
+        <hr class="chap" />
+page_s.2
+    p.2_1
+        <div class="figcenter" style="width: 431px;">
+        <img src="images/i_002.jpg" width="431" height="600" alt="Mother Goose flying on goose" />
+        </div><hr class="chap" />
+page_s.3
+    p.3_1
+        <h1>MOTHER GOOSE'S<br />
+        <span class="smcap">Nursery Rhymes</span></h1>
+        <div class='center'>
+        <span class='small'>A collection of</span><br />
+        <i>Alphabets, Rhymes, Tales, and Jingles</i><br />
+        <br />
+        <br />
+        <b>With Illustrations</b><br />
+        <span class='small'>BY</span><br />
+        <span class="smcap">Sir</span> JOHN GILBERT, R.A., JOHN TENNIEL, HARRISON WEIR,<br />
+        WALTER CRANE, W. McCONNELL, J. B. ZWECKER<br />
+        <span class='small'>AND OTHERS</span><br /><br /><br />
+        </div>
+
+        <div class="figcenter" style="width: 297px;">
+        <img src="images/i_003.png" width="297" height="300" alt="Woman with pig and goat" />
+        </div>
+
+        <div class='center'><br /><br />
+        <span class='big'>London</span><br />
+        <span class='big'><span class="smcap">George Routledge and Sons</span></span><br />
+        <span class='small'>THE BROADWAY, LUDGATE</span><br />
+        NEW YORK: 416 BROOME STREET<br />
+        <span class='small'>1877</span><br />
+        </div><hr class="chap" />
+
+page_s.4
+    p.4_1
+        <div class="figcenter" style="width: 125px;">
+        <img src="images/i_004.png" width="125" height="125" alt="publisher's emblem" />
+        </div><hr class="chap" />
+
+page_s.5
+    p.5_1
+        <h2>CONTENTS.</h2>
+
+        <div class="center">
+        <table border="0" cellpadding="4" cellspacing="0" summary="Contents">
+        <tr><td align="left">&nbsp;</td><td align="right"><i>Page</i></td></tr>
+        <tr><td align="left">Old Mother Goose</td><td align='right'><turn to="9">9</turn}</td></tr>
+        <tr><td align="left">Dickery, Dickery, Dock (<i>Music</i>)</td><td align='right'><turn to="256">256</turn}</td></tr>
+        </table></div>
+        <hr class="chap" />
+
+page_s.8
+    <p><span class="pagenum"><a name="Page_v" id="Page_v">[v]</a></span></p>
+    <h2>CONTENTS.</h2>
+
+    <div class="center">
+    <table border="0" cellpadding="4" cellspacing="0" summary="Contents">
+    <tr><td align="left">&nbsp;</td><td align="right"><i>Page</i></td></tr>
+    <tr><td align="left">A Apple Pie</td><td align='right'><turn to="156">156</turn}</td></tr>
+    <tr><td align="left">A B C, Tumble down D</td><td align='right'><turn to="286">286</turn}</td></tr>
+    <tr><td align="left">A Carrion Crow sat on an Oak</td><td align='right'><turn to="120">120</turn}</td></tr>
+    <tr><td align="left">A Diller, a Dollar, a Ten o'Clock Scholar</td><td align='right'><turn to="257">257</turn}</td></tr>
+    <tr><td align="left">A Farmer went Trotting upon his Grey Mare</td><td align='right'><turn to="292">292</turn}</td></tr>
+    <tr><td align="left">A little Boy went into a Barn</td><td align='right'><turn to="207">207</turn}</td></tr>
+    <tr><td align="left">A little Cock Sparrow sat on a Tree</td><td align='right'><turn to="309">309</turn}</td></tr>
+    <tr><td align="left">A Man of Words and not of Deeds</td><td align='right'><turn to="295">295</turn}</td></tr>
+    <tr><td align="left">A Man went Hunting at Reigate</td><td align='right'><turn to="47">47</turn}</td></tr>
+    <tr><td align="left">A-milking, a-milking, my Maid</td><td align='right'><turn to="140">140</turn}</td></tr>
+
+    <tr><td align="left">Apple-Pie, Pudding, and Pancake</td><td align='right'><turn to="288">288</turn}</td></tr>
+    <tr><td align="left">As I was going along, long, long</td><td align='right'><turn to="140">140</turn}</td></tr>
+    <tr><td align="left">As I was going up Pippin Hill</td><td align='right'><turn to="297">297</turn}</td></tr>
+    <tr><td align="left">As I was going up Primrose Hill</td><td align='right'><turn to="207">207</turn}</td></tr>
+    <tr><td align="left">As I was going to St. Ives</td><td align='right'><turn to="318">318</turn}</td></tr>
+    <tr><td align="left">As I went to Bonner</td><td align='right'><turn to="60">60</turn}</td></tr>
+    <tr><td align="left">As Tommy Snooks and Bessy Brooks</td><td align='right'><turn to="264">264</turn}</td></tr>
+    <tr><td align="left">At the Siege of Belleisle I was there all the while</td><td align='right'><turn to="141">141</turn}</td></tr>
+    <tr><td align="left">Away, Birds, away!</td><td align='right'><turn to="118">118</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+
+    <tr><td align="left">Baa, baa, Black Sheep (<i>Music</i>)</td><td align='right'><turn to="170">170</turn}</td></tr>
+    <tr><td align="left">Barber, Barber, shave a Pig</td><td align='right'><turn to="172">172</turn}</td></tr>
+    <tr><td align="left">Bat, Bat, come under my Hat</td><td align='right'><turn to="241">241</turn}</td></tr>
+    <tr><td align="left">Bessy Bell and Mary Gray</td><td align='right'><turn to="173">173</turn}</td></tr>
+    <tr><td align="left">Bless you, bless you, bonny Bee</td><td align='right'><turn to="308">308</turn}</td></tr>
+    <tr><td align="left">Blow, Wind, blow, and go, Mill, go</td><td align='right'><turn to="183">183</turn}</td></tr>
+    <tr><td align="left">Bow-wow-wow</td><td align='right'><turn to="304">304</turn}</td></tr>
+    <tr><td align="left">Boys and Girls, come out to Play</td><td align='right'><turn to="14">14</turn}</td></tr>
+    <tr><td align="left">Brow, brow, brinkie</td><td align='right'><turn to="61">61</turn}</td></tr>
+    <tr><td align="left">Bye, Baby Bunting</td><td align='right'><turn to="141">141</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Charley, Charley, stole the Barley</td><td align='right'><turn to="285">285</turn}</td></tr>
+    <tr><td align="left">Come, let's to bed, says Sleepy-Head</td><td align='right'><turn to="144">144</turn}</td></tr>
+    <tr><td align="left">Cross-Patch, draw the Latch</td><td align='right'><turn to="223">223</turn}</td></tr>
+    <tr><td align="left">Cry, Baby, cry</td><td align='right'><turn to="214">214</turn}</td></tr>
+    <tr><td align="left">Curly-Locks, Curly-Locks, wilt thou be mine?</td><td align='right'><turn to="188">188</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+
+    <tr><td align="left">Daffy-Down-dilly has come up to Town</td><td align='right'><turn to="209">209</turn}</td></tr>
+    <tr><td align="left">Dame Duck's Lessons to her Ducklings</td><td align='right'><turn to="150">150</turn}</td></tr>
+    <tr><td align="left">Dance a Baby Diddit</td><td align='right'><turn to="141">141</turn}</td></tr>
+    <tr><td align="left">Dance to your Daddy</td><td align='right'><turn to="180">180</turn}</td></tr>
+    <tr><td align="left">Death and Burial of poor Cock Robin</td><td align='right'><turn to="79">79</turn}</td></tr>
+    <tr><td align="left">Deedle, deedle, Dumpling, my Son John</td><td align='right'><turn to="228">228</turn}</td></tr>
+    <tr><td align="left">Dickery, Dickery, Dock (<i>Music</i>)</td><td align='right'><turn to="256">256</turn}</td></tr>
+    <tr><td align="left">Dickery, Dickery, Dare</td><td align='right'><turn to="58">58</turn}</td></tr>
+    <tr><td align="left">Ding, Dong, Bell</td><td align='right'><turn to="224">224</turn}</td></tr>
+    <tr><td align="left">Ding, Dong, Darrow</td><td align='right'><turn to="149">149</turn}</td></tr>
+    <tr><td align="left">Doctor Foster went to Glo'ster</td><td align='right'><turn to="148">148</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Early to Bed and Early to Rise</td><td align='right'><turn to="297">297</turn}</td></tr>
+    <tr><td align="left">Eggs, Butter, Cheese, Bread</td><td align='right'><turn to="221">221</turn}</td></tr>
+    <tr><td align="left">Elizabeth, Elspeth, Betsy, and Bess</td><td align='right'><turn to="286">286</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">For every Evil under the Sun</td><td align='right'><turn to="300">300</turn}</td></tr>
+    <tr><td align="left">Four and Twenty Tailors went to kill a Snail</td><td align='right'><turn to="148">148</turn}</td></tr>
+    <tr><td align="left">Freddie in the Cherry-Tree</td><td align='right'><turn to="111">111</turn}</td></tr>
+    <tr><td align="left">Frog he would a-wooing go</td><td align='right'><turn to="124">124</turn}</td></tr>
+    <tr><td align="left"><span class="pagenum"><a name="Page_vi" id="Page_vi">[vi]</a></span>Frog's (The) Chorus</td><td align='right'><turn to="222">222</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Georgie Porgie (<i>Music</i>)</td><td align='right'><turn to="289">289</turn}</td></tr>
+    <tr><td align="left">Good Dobbin</td><td align='right'><turn to="265">265</turn}</td></tr>
+    <tr><td align="left">Good King Arthur</td><td align='right'><turn to="51">51</turn}</td></tr>
+    <tr><td align="left">Goosey, Goosey, Gander (<i>Music</i>)</td><td align='right'><turn to="193">193</turn}</td></tr>
+    <tr><td align="left">Go to Bed first, a Golden Purse</td><td align='right'><turn to="318">318</turn}</td></tr>
+    <tr><td align="left">Great A, Little A</td><td align='right'><turn to="239">239</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Handy, Spandy, Jack-a-Dandy</td><td align='right'><turn to="194">194</turn}</td></tr>
+    <tr><td align="left">Hark, hark, the Dogs do bark</td><td align='right'><turn to="190">190</turn}</td></tr>
+    <tr><td align="left">Here am I, little Jumping Joan</td><td align='right'><turn to="264">264</turn}</td></tr>
+    <tr><td align="left">Here we go up, up, up</td><td align='right'><turn to="194">194</turn}</td></tr>
+    <tr><td align="left">He that would Thrive</td><td align='right'><turn to="217">217</turn}</td></tr>
+    <tr><td align="left">Hey, diddle, diddle</td><td align='right'><turn to="174">174</turn}</td></tr>
+    <tr><td align="left">Hey, my Kitten, my Kitten</td><td align='right'><turn to="194">194</turn}</td></tr>
+    <tr><td align="left">Hickety, Pickety, my Black Hen</td><td align='right'><turn to="230">230</turn}</td></tr>
+    <tr><td align="left">High Diddle Ding</td><td align='right'><turn to="135">135</turn}</td></tr>
+    <tr><td align="left">High diddle doubt, my Candle's out</td><td align='right'><turn to="169">169</turn}</td></tr>
+    <tr><td align="left">Hot Cross Buns</td><td align='right'><turn to="52">52</turn}</td></tr>
+    <tr><td align="left">Humpty Dumpty sat on a Wall (<i>Music</i>)</td><td align='right'><turn to="48">48</turn}</td></tr>
+    <tr><td align="left">Hush-a-bye, Baby</td><td align='right'><turn to="217">217</turn}</td></tr>
+    <tr><td align="left">Hush-a-bye, Baby, lie still with thy Daddy</td><td align='right'><turn to="294">294</turn}</td></tr>
+    <tr><td align="left">Hush Baby, my Doll, I pray you don't cry</td><td align='right'><turn to="61">61</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">If all the World were Water</td><td align='right'><turn to="194">194</turn}</td></tr>
+    <tr><td align="left">If Wishes were Horses, Beggars would ride</td><td align='right'><turn to="189">189</turn}</td></tr>
+    <tr><td align="left">If you are to be a Gentleman</td><td align='right'><turn to="61">61</turn}</td></tr>
+    <tr><td align="left">I had a little Dog, they called him Buff</td><td align='right'><turn to="119">119</turn}</td></tr>
+    <tr><td align="left">I had a little Hen, the prettiest ever seen</td><td align='right'><turn to="208">208</turn}</td></tr>
+    <tr><td align="left">I had a little Hobby-Horse</td><td align='right'><turn to="221">221</turn}</td></tr>
+    <tr><td align="left">I had a little Husband no bigger than my Thumb</td><td align='right'><turn to="192">192</turn}</td></tr>
+    <tr><td align="left">I had a little Pony</td><td align='right'><turn to="195">195</turn}</td></tr>
+    <tr><td align="left">I have a little Sister they call her Peep, Peep</td><td align='right'><turn to="192">192</turn}</td></tr>
+    <tr><td align="left">I'll tell you a Story</td><td align='right'><turn to="231">231</turn}</td></tr>
+    <tr><td align="left">I love Sixpence</td><td align='right'><turn to="232">232</turn}</td></tr>
+    <tr><td align="left">I love little Pussy</td><td align='right'><turn to="290">290</turn}</td></tr>
+    <tr><td align="left">I saw a Ship a-sailing</td><td align='right'><turn to="129">129</turn}</td></tr>
+    <tr><td align="left">Is John Smith within?</td><td align='right'><turn to="153">153</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Jack and Jill went up the Hill (<i>Music</i>)</td><td align='right'><turn to="212">212</turn}</td></tr>
+    <tr><td align="left">Jack be Nimble</td><td align='right'><turn to="183">183</turn}</td></tr>
+    <tr><td align="left">Jack Sprat could eat no Fat</td><td align='right'><turn to="60">60</turn}</td></tr>
+    <tr><td align="left">Jack Sprat had a Cat</td><td align='right'><turn to="119">119</turn}</td></tr>
+    <tr><td align="left">Jack Sprat's Pig</td><td align='right'><turn to="308">308</turn}</td></tr>
+    <tr><td align="left">Jacky, come give me thy Fiddle</td><td align='right'><turn to="257">257</turn}</td></tr>
+    <tr><td align="left">Jenny shall have a new Bonnet</td><td align='right'><turn to="305">305</turn}</td></tr>
+    <tr><td align="left">John Cook he had a little Grey Mare</td><td align='right'><turn to="153">153</turn}</td></tr>
+    <tr><td align="left">John Gilpin</td><td align='right'><turn to="266">266</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Ladybird, Ladybird</td><td align='right'><turn to="261">261</turn}</td></tr>
+    <tr><td align="left">Leg over Leg</td><td align='right'><turn to="261">261</turn}</td></tr>
+    <tr><td align="left">"Let us go to the Woods," says this Pig</td><td align='right'><turn to="304">304</turn}</td></tr>
+    <tr><td align="left">Little Betty Blue</td><td align='right'><turn to="294">294</turn}</td></tr>
+    <tr><td align="left">Little Blue Betty lived in a Lane</td><td align='right'><turn to="123">123</turn}</td></tr>
+    <tr><td align="left">Little Bo-Peep (<i>Music</i>)</td><td align='right'><turn to="312">312</turn}</td></tr>
+    <tr><td align="left">Little Boy Blue</td><td align='right'><turn to="136">136</turn}</td></tr>
+    <tr><td align="left">Little Boy, pretty Boy, where were you born?</td><td align='right'><turn to="173">173</turn}</td></tr>
+    <tr><td align="left">Little Girl, little Girl, where have you been?</td><td align='right'><turn to="180">180</turn}</td></tr>
+    <tr><td align="left">Little Jack Horner (<i>Music</i>)</td><td align='right'><turn to="80">80</turn}</td></tr>
+    <tr><td align="left">Little Miss Muffett</td><td align='right'><turn to="263">263</turn}</td></tr>
+    <tr><td align="left">Little Nancy Etticote</td><td align='right'><turn to="123">123</turn}</td></tr>
+    <tr><td align="left">Little Polly Flinders</td><td align='right'><turn to="239">239</turn}</td></tr>
+    <tr><td align="left">Little Robin Redbreast sat upon a Rail</td><td align='right'><turn to="149">149</turn}</td></tr>
+    <tr><td align="left">Little Tommy Tittlemouse</td><td align='right'><turn to="195">195</turn}</td></tr>
+    <tr><td align="left">Little Tom Tucker (<i>Music</i>)</td><td align='right'><turn to="146">146</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left"><span class="pagenum"><a name="Page_vii" id="Page_vii">[vii]</a></span>Margery Mutton-Pie and Johnny Bo-Peep</td><td align='right'><turn to="188">188</turn}</td></tr>
+    <tr><td align="left">Marriage of Cock Robin and Jenny Wren</td><td align='right'><turn to="84">84</turn}</td></tr>
+    <tr><td align="left">Mary had a pretty Bird</td><td align='right'><turn to="122">122</turn}</td></tr>
+    <tr><td align="left">Mary, Mary, quite contrary</td><td align='right'><turn to="148">148</turn}</td></tr>
+    <tr><td align="left">Molly, my Sister, and I fell out</td><td align='right'><turn to="59">59</turn}</td></tr>
+    <tr><td align="left">Mr. Isbister and Betsy his Sister</td><td align='right'><turn to="311">311</turn}</td></tr>
+    <tr><td align="left">Multiplication is Vexation</td><td align='right'><turn to="209">209</turn}</td></tr>
+    <tr><td align="left">My Lady Wind, my Lady Wind</td><td align='right'><turn to="303">303</turn}</td></tr>
+    <tr><td align="left">My little Old Man and I fell out</td><td align='right'><turn to="288">288</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Needles and Pins, Needles and Pins</td><td align='right'><turn to="300">300</turn}</td></tr>
+    <tr><td align="left">Nievie, Nievie, Nicknack</td><td align='right'><turn to="306">306</turn}</td></tr>
+    <tr><td align="left">Nursery Rhyme Alphabet</td><td align='right'><turn to="226">226</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Oh, Mother, I'm to be Married to Mr. Punchinello</td><td align='right'><turn to="306">306</turn}</td></tr>
+    <tr><td align="left">Oh, the Rusty, Dusty, Rusty Miller</td><td align='right'><turn to="168">168</turn}</td></tr>
+    <tr><td align="left">Old Father Grey Beard</td><td align='right'><turn to="140">140</turn}</td></tr>
+    <tr><td align="left">Old King Cole</td><td align='right'><turn to="154">154</turn}</td></tr>
+    <tr><td align="left">Old Mother Goose</td><td align='right'><turn to="9">9</turn}</td></tr>
+    <tr><td align="left">Old Mother Hubbard</td><td align='right'><turn to="64">64</turn}</td></tr>
+    <tr><td align="left">Old Mother Widdle-Waddle</td><td align='right'><turn to="206">206</turn}</td></tr>
+    <tr><td align="left">Old Woman, Old Woman, shall we go a-Shearing?</td><td align='right'><turn to="298">298</turn}</td></tr>
+    <tr><td align="left">One misty, moisty Morning</td><td align='right'><turn to="228">228</turn}</td></tr>
+    <tr><td align="left">One, Two, buckle my Shoe</td><td align='right'><turn to="191">191</turn}</td></tr>
+    <tr><td align="left">One, Two, Three</td><td align='right'><turn to="219">219</turn}</td></tr>
+    <tr><td align="left">One, Two, Three, Four, Five</td><td align='right'><turn to="261">261</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Pat-a-cake, pat-a-cake, Baker's Man</td><td align='right'><turn to="299">299</turn}</td></tr>
+    <tr><td align="left">Pease Pudding Hot</td><td align='right'><turn to="188">188</turn}</td></tr>
+    <tr><td align="left">Peter White will ne'er go right</td><td align='right'><turn to="217">217</turn}</td></tr>
+    <tr><td align="left">Pit, pat, well-a-day!</td><td align='right'><turn to="149">149</turn}</td></tr>
+    <tr><td align="left">Pitty Patty Polt</td><td align='right'><turn to="61">61</turn}</td></tr>
+    <tr><td align="left">Please to remember the Fifth of November</td><td align='right'><turn to="260">260</turn}</td></tr>
+    <tr><td align="left">Poor Dog Bright</td><td align='right'><turn to="296">296</turn}</td></tr>
+    <tr><td align="left">Poor old Robinson Crusoe</td><td align='right'><turn to="240">240</turn}</td></tr>
+    <tr><td align="left">Pussy Cat ate the Dumplings</td><td align='right'><turn to="299">299</turn}</td></tr>
+    <tr><td align="left">Pussy Cat, Pussy Cat, where have you been?</td><td align='right'><turn to="195">195</turn}</td></tr>
+    <tr><td align="left">Pussy sits beside the Fire</td><td align='right'><turn to="168">168</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Queen Anne, Queen Anne, she sits in the Sun</td><td align='right'><turn to="180">180</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Rain, Rain, go away</td><td align='right'><turn to="309">309</turn}</td></tr>
+    <tr><td align="left">Rain, Rain, go to Spain</td><td align='right'><turn to="307">307</turn}</td></tr>
+    <tr><td align="left">Ride a Cock-Horse</td><td align='right'><turn to="184">184</turn}</td></tr>
+    <tr><td align="left">Robin and Richard were two pretty Men</td><td align='right'><turn to="183">183</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">See a Pin and pick it up</td><td align='right'><turn to="259">259</turn}</td></tr>
+    <tr><td align="left">See-saw, Margery Daw</td><td align='right'><turn to="178">178</turn}</td></tr>
+    <tr><td align="left">See, see, what shall I see?</td><td align='right'><turn to="195">195</turn}</td></tr>
+    <tr><td align="left">Simple Simon (<i>Music</i>)</td><td align='right'><turn to="112">112</turn}</td></tr>
+    <tr><td align="left">Sing a Song of Sixpence (<i>Music</i>)</td><td align='right'><turn to="234">234</turn}</td></tr>
+    <tr><td align="left">Snail, Snail, come out of your Hole</td><td align='right'><turn to="141">141</turn}</td></tr>
+    <tr><td align="left">Snail, Snail, come put out your Horn</td><td align='right'><turn to="189">189</turn}</td></tr>
+    <tr><td align="left">Solomon Grundy</td><td align='right'><turn to="59">59</turn}</td></tr>
+    <tr><td align="left">Some little Mice sat in a Barn</td><td align='right'><turn to="320">320</turn}</td></tr>
+    <tr><td align="left">Swan, Swan, over the Sea</td><td align='right'><turn to="228">228</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Taffy was a Welshman</td><td align='right'><turn to="291">291</turn}</td></tr>
+    <tr><td align="left">The Barber shaved the Mason</td><td align='right'><turn to="63">63</turn}</td></tr>
+    <tr><td align="left">The Cat sat asleep by the side of the Fire</td><td align='right'><turn to="264">264</turn}</td></tr>
+    <tr><td align="left">The Cock doth Crow</td><td align='right'><turn to="119">119</turn}</td></tr>
+    <tr><td align="left">The Cuckoo's a bonny Bird</td><td align='right'><turn to="298">298</turn}</td></tr>
+    <tr><td align="left">The Fox and the Farmer</td><td align='right'><turn to="186">186</turn}</td></tr>
+    <tr><td align="left">The great Brown Owl</td><td align='right'><turn to="145">145</turn}</td></tr>
+    <tr><td align="left">The House that Jack built</td><td align='right'><turn to="196">196</turn}</td></tr>
+    <tr><td align="left">The King of France went up the Hill</td><td align='right'><turn to="119">119</turn}</td></tr>
+    <tr><td align="left">The Lion and the Unicorn were fighting for the Crown</td><td align='right'><turn to="172">172</turn}</td></tr>
+    <tr><td align="left">The Man in the Moon</td><td align='right'><turn to="149">149</turn}</td></tr>
+    <tr><td align="left">The North Wind doth blow</td><td align='right'><turn to="241">241</turn}</td></tr>
+    <tr><td align="left"><span class="pagenum"><a name="Page_viii" id="Page_viii">[viii]</a></span>The Old Woman and her Pig</td><td align='right'><turn to="242">242</turn}</td></tr>
+    <tr><td align="left">The Old Woman must stand at the Tub, Tub, Tub</td><td align='right'><turn to="229">229</turn}</td></tr>
+    <tr><td align="left">The Queen of Hearts</td><td align='right'><turn to="210">210</turn}</td></tr>
+    <tr><td align="left">There was a Crooked Man</td><td align='right'><turn to="169">169</turn}</td></tr>
+    <tr><td align="left">There was a Fat Man of Bombay</td><td align='right'><turn to="233">233</turn}</td></tr>
+    <tr><td align="left">There was a Jolly Miller</td><td align='right'><turn to="56">56</turn}</td></tr>
+    <tr><td align="left">There was a little Man and he had a little Gun</td><td align='right'><turn to="209">209</turn}</td></tr>
+    <tr><td align="left">There was a Monkey climbed up a Tree</td><td align='right'><turn to="82">82</turn}</td></tr>
+    <tr><td align="left">There was an Old Crow</td><td align='right'><turn to="223">223</turn}</td></tr>
+    <tr><td align="left">There was an Old Man of Tobago</td><td align='right'><turn to="262">262</turn}</td></tr>
+    <tr><td align="left">There was an Old Woman, and what do you think?</td><td align='right'><turn to="319">319</turn}</td></tr>
+    <tr><td align="left">There was an Old Woman as I've heard tell</td><td align='right'><turn to="134">134</turn}</td></tr>
+    <tr><td align="left">There was an Old Woman called Nothing-at-all</td><td align='right'><turn to="220">220</turn}</td></tr>
+    <tr><td align="left">There was an Old Woman lived under a Hill</td><td align='right'><turn to="139">139</turn}</td></tr>
+    <tr><td align="left">There was an Old Woman tossed up in a Basket</td><td align='right'><turn to="181">181</turn}</td></tr>
+    <tr><td align="left">There was an Old Woman who lived in a Shoe</td><td align='right'><turn to="218">218</turn}</td></tr>
+    <tr><td align="left">There was an Owl lived in an Oak</td><td align='right'><turn to="50">50</turn}</td></tr>
+    <tr><td align="left">There was a Rat, for want of Stairs</td><td align='right'><turn to="188">188</turn}</td></tr>
+    <tr><td align="left">There were Three Crows sat ona Stone</td><td align='right'><turn to="211">211</turn}</td></tr>
+    <tr><td align="left">The Robin Redbreasts</td><td align='right'><turn to="138">138</turn}</td></tr>
+    <tr><td align="left">The Rose is Red, the Violet's Blue</td><td align='right'><turn to="310">310</turn}</td></tr>
+    <tr><td align="left">The Turtle Dove's Nest</td><td align='right'><turn to="215">215</turn}</td></tr>
+    <tr><td align="left">The Waves on the Sea-shore</td><td align='right'><turn to="83">83</turn}</td></tr>
+    <tr><td align="left">The Wonderful Derby Ram</td><td align='right'><turn to="302">302</turn}</td></tr>
+    <tr><td align="left">The Young Linnets</td><td align='right'><turn to="176">176</turn}</td></tr>
+    <tr><td align="left">This is the way the Ladies go</td><td align='right'><turn to="261">261</turn}</td></tr>
+    <tr><td align="left">Thomas a Tattamus took two T's</td><td align='right'><turn to="172">172</turn}</td></tr>
+    <tr><td align="left">Three Children sliding on the Ice</td><td align='right'><turn to="301">301</turn}</td></tr>
+    <tr><td align="left">Three Straws on a Staff</td><td align='right'><turn to="209">209</turn}</td></tr>
+    <tr><td align="left">Three Wise Men of Gotham</td><td align='right'><turn to="135">135</turn}</td></tr>
+    <tr><td align="left">To make your Candles last for aye</td><td align='right'><turn to="144">144</turn}</td></tr>
+    <tr><td align="left">To Market, to Market, a gallop, a trot</td><td align='right'><turn to="288">288</turn}</td></tr>
+    <tr><td align="left">To Market, to Market, to buy a Fat Pig</td><td align='right'><turn to="52">52</turn}</td></tr>
+    <tr><td align="left">Tommy kept a Chandler's Shop</td><td align='right'><turn to="258">258</turn}</td></tr>
+    <tr><td align="left">Tom Thumb's Alphabet</td><td align='right'><turn to="15">15</turn}</td></tr>
+    <tr><td align="left">Tom, Tom, the Piper's Son (<i>Music</i>)</td><td align='right'><turn to="130">130</turn}</td></tr>
+    <tr><td align="left">Twinkle, twinkle, little Star</td><td align='right'><turn to="284">284</turn}</td></tr>
+    <tr><td align="left">Two Legs sat upon Three Legs</td><td align='right'><turn to="206">206</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Up Hill and down Dale</td><td align='right'><turn to="287">287</turn}</td></tr>
+    <tr><td align="left">Up Hill, spare me</td><td align='right'><turn to="307">307</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Valentine, oh, Valentine</td><td align='right'><turn to="311">311</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Walrus (The) and the Carpenter</td><td align='right'><turn to="42">42</turn}</td></tr>
+    <tr><td align="left">We are all in the Dumps</td><td align='right'><turn to="139">139</turn}</td></tr>
+    <tr><td align="left">We'll go a-shooting</td><td align='right'><turn to="310">310</turn}</td></tr>
+    <tr><td align="left">What's the News of the Day?</td><td align='right'><turn to="223">223</turn}</td></tr>
+    <tr><td align="left">When I was a Bachelor, I lived by myself</td><td align='right'><turn to="182">182</turn}</td></tr>
+    <tr><td align="left">When Little Fred went to Bed</td><td align='right'><turn to="308">308</turn}</td></tr>
+    <tr><td align="left">When the Wind is in the East</td><td align='right'><turn to="214">214</turn}</td></tr>
+    <tr><td align="left">Where are you going to, my pretty Maid?</td><td align='right'><turn to="62">62</turn}</td></tr>
+    <tr><td align="left">Who Stole the Bird's Nest?</td><td align='right'><turn to="53">53</turn}</td></tr>
+    <tr><td align="left">Willy Boy, Willy Boy, where are you going?</td><td align='right'><turn to="118">118</turn}</td></tr>
+    <tr><td align="left">&nbsp;</td></tr>
+    <tr><td align="left">Young Lambs to sell, Young Lambs to sell</td><td align='right'><turn to="142">142</turn}</td></tr>
+    <tr><td align="left">You shall have an Apple</td><td align='right'><turn to="294">294</turn}</td></tr>
+    </table></div>
+    <hr class="chap" />
+
+
+
+page_s.9
+    p.9_1
+        <h2>MOTHER GOOSE'S NURSERY RHYMES.</h2>
+        <div class='title'>OLD MOTHER GOOSE.</div>
+        <div class="poem1">
+        <span class="smcap">Old</span> Mother Goose, when<br />
+        <span style="margin-left: 1em;">She wanted to wander,</span><br />
+        Would ride through the air<br />
+        <span style="margin-left: 1em;">On a very fine gander.</span><br />
+        <br />
+        Mother Goose had a house,<br />
+        <span style="margin-left: 1em;">'Twas built in a wood,</span><br />
+        Where an owl at the door<br />
+        <span style="margin-left: 1em;">For sentinel stood.</span><br />
+        <br />
+        This is her son Jack,<br />
+        <span style="margin-left: 1em;">A plain-looking lad,</span><br />
+        He is not very good,<br />
+        <span style="margin-left: 1em;">Nor yet very bad.</span><br />
+        <br />
+        She sent him to market,<br />
+        <span style="margin-left: 1em;">A live goose he bought,</span><br />
+        "Here, mother," says he,<br />
+        <span style="margin-left: 1em;">"It will not go for nought."</span><br />
+        <br />
+        Jack's goose and her gander<br />
+        <span style="margin-left: 1em;">Grew very fond,</span><br />
+        They'd both eat together,<br />
+        <span style="margin-left: 1em;">Or swim in one pond.</span><br />
+        </div>
+        <hr/>
+
+page_s.10
+    p.10_1
+        <div class="figcenter" style="width: 437px;">
+        <img src="images/i_010.png" width="437" height="600" alt="Jack to buy goose" />
+        <span class="caption">&quot;SHE SENT HIM TO MARKET, A LIVE GOOSE HE BOUGHT.&quot;</span>
+        </div>
+        <hr/>
+
+page_s.256
+    p.256_1
+        <div class="figcenter" style="width: 392px;">
+        <img src="images/i_256.png" width="392" height="600" alt="Music: Dickery, Dickery, Dock" />
+        </div>
+        <div class="center"><small>[<i>Transcriber's Note: You can play this music (MIDI file) by clicking</i> <a href="music/256.mid">here</a>.]</small></div>
+        <div class="poem1">
+        Dickery, dickery, dock!<br />
+        The mouse ran up the clock;<br />
+        The clock struck one, and down the mouse ran,<br />
+        Dickery, dickery, dock!<br />
+        </div>
+        <hr/>
+

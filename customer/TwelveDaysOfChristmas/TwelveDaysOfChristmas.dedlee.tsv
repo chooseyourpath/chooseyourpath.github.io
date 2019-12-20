@@ -1,0 +1,195 @@
+The Twelve Days of Christmas
+#original source material https://lyrics.fandom.com/wiki/Frederic_Austin:The_Twelve_Days_Of_Christmas
+#image sources https://americanornithology.org/three-french-hens/
+#https://www.royalfreemusicsociety.org.uk/Archive/ArchTrad12Days.htm
+########## initscript
+########## objects
+########## pages
+page.intro
+		<hide>1Welcome, find more books at </hide>
+
+page_s.1.first
+    p.1_1
+        <img src="./images/12-Days-of-Christmas.1.jpg" alt="day 1" title="1st Day" /><br>
+        On the first day of Christmas<br>
+        My true love gave to me:<br>
+        A partridge in a pear tree<br>
+        <hr>
+
+page_s.2
+     p.2_1
+        <img src="./images/12-Days-of-Christmas.2.jpg" alt="day 2" title="2nd Day" /><br>
+        On the second day of Christmas<br>
+        My true love gave to me:<br>
+        Two turtle doves and<br>
+        A partridge in a pear tree<br>
+        <hr>
+
+page_s.3
+     p.3_1
+        <img src="./images/12-Days-of-Christmas.3.jpg" alt="day 3" title="3rd Day" /><br>
+        On the third day of Christmas<br>
+        My true love gave to me:<br>
+        Three French hens<br>
+        Two turtle doves and<br>
+        A partridge in a pear tree<br>
+        <hr>
+
+page_s.4
+     p.4_1
+        <img src="./images/12-Days-of-Christmas.4.jpg" alt="day 4" title="4th Day" /><br>
+        On the forth day of Christmas<br>
+        My true love gave to me:<br>
+        Four calling birds<br>
+        Three French hens<br>
+        Two turtle doves and<br>
+        A partridge in a pear tree<br>
+        <hr>
+
+page_s.5
+     p.5_1
+        <img src="./images/12-Days-of-Christmas.5.jpg" alt="day 5" title="5th Day" /><br>
+        On the fifth day of Christmas<br>
+        My true love gave to me:<br>
+        Five golden rings<br>
+        Four calling birds<br>
+        Three French hens<br>
+        Two turtle doves and<br>
+        A partridge in a pear tree<br>
+        <hr>
+
+page_s.6
+     p.6_1
+        <img src="./images/12-Days-of-Christmas.6.jpg" alt="day 6" title="6th Day" /><br>
+        On the sixth day of Christmas<br>
+        My true love gave to me:<br>
+        Six geese a-laying<br>
+        Five golden rings<br>
+        Four calling birds<br>
+        Three French hens<br>
+        Two turtle doves and<br>
+        A partridge in a pear tree<br>
+        <hr>
+
+page_s.7
+     p.7_1
+        <img src="./images/12-Days-of-Christmas.7.jpg" alt="day 7" title="7th Day" /><br>
+        On the seventh day of Christmas<br>
+        My true love gave to me:<br>
+        Seven swans a-swimming<br>
+        Six geese a-laying<br>
+        Five golden rings<br>
+        Four calling birds<br>
+        Three French hens<br>
+        Two turtle doves and<br>
+        A partridge in a pear tree<br>
+        <br><hr>
+page_s.8
+     p.8_1
+        <img src="./images/12-Days-of-Christmas.8.jpg" alt="day 8" title="8th Day" /><br>
+        On the eight day of Christmas<br>
+        My true love gave to me:<br>
+        Eight maids a-milking<br>
+        Seven swans a-swimming<br>
+        Six geese a-laying<br>
+        Five golden rings<br>
+        Four calling birds<br>
+        Three French hens<br>
+        Two turtle doves and<br>
+        A partridge in a pear tree<br>
+        <hr>
+
+page_s.9
+     p.9_1
+        <img src="./images/12-Days-of-Christmas.9.jpg" alt="day 9" title="9th Day" /><br>
+        On the ninth day of Christmas<br>
+        My true love gave to me:<br>
+        Nine ladies dancing<br>
+        Eight maids a-milking<br>
+        Seven swans a-swimming<br>
+        Six geese a-laying<br>
+        Five golden rings<br>
+        Four calling birds<br>
+        Three French hens<br>
+        Two turtle doves and<br>
+        A partridge in a pear tree<br>
+        <hr>
+
+page_s.10
+     p.10_1
+        <img src="./images/12-Days-of-Christmas.10.jpg" alt="day 10" title="10th Day" /><br>
+        On the tenth day of Christmas<br>
+        My true love gave to me:<br>
+        Ten lords a-leaping<br>
+        Nine ladies dancing<br>
+        Eight maids a-milking<br>
+        Seven swans a-swimming<br>
+        Six geese a-laying<br>
+        Five golden rings<br>
+        Four calling birds<br>
+        Three French hens<br>
+        Two turtle doves and<br>
+        A partridge in a pear tree<br>
+        <hr>
+
+page_s.11
+     p.11_1
+        <img src="./images/12-Days-of-Christmas.11.jpg" alt="day 11" title="11th Day" /><br>
+        On the eleventh day of Christmas<br>
+        My true love gave to me:<br>
+        Eleven pipers piping<br>
+        Ten lords a-leaping<br>
+        Nine ladies dancing<br>
+        Eight maids a-milking<br>
+        Seven swans a-swimming<br>
+        Six geese a-laying<br>
+        Five golden rings<br>
+        Four calling birds<br>
+        Three French hens<br>
+        Two turtle doves and<br>
+        A partridge in a pear tree<br>
+        <hr>
+
+page_s.12
+     p.12_1
+        <img src="./images/12-Days-of-Christmas.12.jpg" alt="day 12" title="12th Day" /><br>
+        On the Twelfth day of Christmas<br>
+        My true love gave to me:<br>
+        Twelve drummers drumming<br>
+        Eleven pipers piping<br>
+        Ten lords a-leaping<br>
+        Nine ladies dancing<br>
+        Eight maids a-milking<br>
+        Seven swans a-swimming<br>
+        Six geese a-laying<br>
+        Five golden rings<br>
+        Four calling birds<br>
+        Three French hens<br>
+        Two turtle doves<br>
+        And a partridge in a pear tree <br>
+        <hr>
+page_s.13
+     p.1_1
+        <img src="./images/12-Days-of-Christmas.1.jpg" alt="day 1" title="1st Day" />
+     p.2_1
+        <img src="./images/12-Days-of-Christmas.2.jpg" alt="day 2" title="2nd Day" /><br>
+     p.3_1
+        <img src="./images/12-Days-of-Christmas.3.jpg" alt="day 3" title="3rd Day" />
+     p.4_1
+        <img src="./images/12-Days-of-Christmas.4.jpg" alt="day 4" title="4th Day" /><br>
+     p.5_1
+        <img src="./images/12-Days-of-Christmas.5.jpg" alt="day 5" title="5th Day" />
+     p.6_1
+        <img src="./images/12-Days-of-Christmas.6.jpg" alt="day 6" title="6th Day" /><br>
+     p.7_1
+        <img src="./images/12-Days-of-Christmas.7.jpg" alt="day 7" title="7th Day" />
+     p.8_1
+        <img src="./images/12-Days-of-Christmas.8.jpg" alt="day 8" title="8th Day" /><br>
+     p.9_1
+        <img src="./images/12-Days-of-Christmas.9.jpg" alt="day 9" title="9th Day" />
+     p.10_1
+        <img src="./images/12-Days-of-Christmas.10.jpg" alt="day 10" title="10th Day" /><br>
+     p.11_1
+        <img src="./images/12-Days-of-Christmas.11.jpg" alt="day 11" title="11th Day" />
+     p.12_1
+        <img src="./images/12-Days-of-Christmas.12.jpg" alt="day 12" title="12th Day" /><br>

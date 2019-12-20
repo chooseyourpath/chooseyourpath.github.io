@@ -1,0 +1,82 @@
+div .outline:hover {
+	border: 2px solid black;
+	border-radius: .5em;
+	color: blue;
+}
+
+.item {
+	text-align: center;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: 110%;
+	left: 50%;
+	margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+	/* add an arrow */
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.tooltip:hover .recordingButtonsPlay:disabled .tooltiptext::after {
+	content: "File Not Available: see Error log";
+}
+.tooltip:hover .playingButtons:disabled .tooltiptext::after {
+	content: "File Not Available: see Error log";
+}
+
+.recordingButtonsRecord {
+	background-color: maroon;
+}
+
+.recordingButtonsRecord:disabled {
+	background-color: grey;
+}
+.recordingButtonsPlay {
+	background-color: green;
+}
+
+.recordingButtonsPlay:disabled {
+	background-color: grey;
+}
+
+.playingButtons:enabled {
+	background-color: blue;
+}
+
+.playingButtons:disabled {
+	background-color: grey;
+}
+
+.playingButtons:active:enabled {
+	background-color: greenyellow;
+}

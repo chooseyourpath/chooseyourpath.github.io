@@ -1,0 +1,251 @@
+The Tale of Benjamin Bunny
+########## initscript
+########## objects
+########## pages
+page.intro
+		<hide>1Welcome, find more books at </hide>
+
+page_s.1.first
+    p.1_1
+        THE TALE OF <br>
+        BENJAMIN BUNNY <br>
+        BY<br>
+            BEATRIX POTTER <br>        
+        AUTHOR OF &quot;THE TAIL OF PETER RABBIT,&quot;<br>
+        <a href="./images/title-page-tb.jpg"><img src="./images/title-page-tb.jpg" alt="Title emblem" title="Emblem" /></a><br>
+        FREDERICK WARNE &amp; CO., INC.<br>
+        NEW YORK<br>
+        <hr>
+page_s.2
+    p.2_1
+        Copyright, 1904<br>
+        BY<br>
+        FREDERICK WARNE &amp; Co.<br>
+        Copyright renewed, 1932<br>
+        <hr>
+
+page_s.3
+    p.3_1
+        <img src="./images/04-tb.jpg" alt="At Home" title="At Home" /></a><br>
+        "At Home"<br>
+    p.3_2
+        FOR THE CHILDREN OF SAWREY<br>
+        FROM<br>
+        OLD MR. BUNNY<br>
+        <hr>
+
+page_s.4	
+    p.4_1
+        <img src="./images/08-tb.jpg" alt="On the bank" title="On the bank" /><br>
+        "On the bank"<br>
+    p.4_2
+        One morning a little rabbit sat on a bank.<br>
+        He pricked his ears and listened to the trit-trot, trit-trot of a pony.<br>
+        A gig was coming along the road; it was driven by Mr. McGregor, and beside him sat Mrs. McGregor in her best bonnet.<br>
+
+page_s.5
+    p.5_1
+        <img src="./images/11-tb.jpg" alt="Hop, skip" title="Hop, skip" /><br>
+        "Hop, skip"<br>                
+    p.5_2
+        <br />As soon as they had passed, little Benjamin Bunny slid down into the road, and set off&mdash;with a hop, skip, and a jump&mdash;to call upon his relations, who lived in the wood at the back of Mr. McGregor's garden.<br>
+	
+page_s.6
+    p.6_1
+        <img src="./images/12-tb.jpg" alt="The Hole" title="The Hole" /><br>
+        "The Hole"<br>
+    p.6_2
+        That wood was full of rabbit holes; and in the neatest, sandiest hole of all lived Benjamin's aunt and his cousins&mdash;Flopsy, Mopsy, Cotton-tail, and Peter.<br>
+        Old Mrs. Rabbit was a widow; she earned her living by knitting rabbit-wool mittens and muffatees (I once bought a pair at a bazaar). She also sold herbs, and rosemary tea, and rabbit-tobacco (which is what we call lavender).<br>
+
+page_s.7	
+    p.7_1
+        <img src="./images/15-tb.jpg" alt="Ears" title="Ears" /><br>
+        "Ears"<br>
+    p.7_2
+        <br />Little Benjamin did not very much want to see his Aunt.<br>  
+        He came round the back of the fir-tree, and nearly tumbled upon the top of his Cousin Peter.<br>
+
+page_s.8
+    p.8_1
+        <img src="./images/16-tb.jpg" alt="In a handkerchief" title="In a Handkerchief" /><br>
+        "In a Handerchief"<br>
+    p.8_2
+        Peter was sitting by himself. He looked poorly, and was dressed in a red cotton pocket-handkerchief.<br>
+
+page_s.9
+    p.9_1
+        <img src="./images/19-tb.jpg" alt="The Whisper" title="The Whisper" /><br>
+        "The Whisper"<br>
+    p.9_2
+        &quot;Peter,&quot; said little Benjamin, in a whisper, &quot;who has got your clothes?&quot;<br>
+        Peter replied, &quot;The scarecrow in Mr. McGregor's garden,&quot; and described how he had been chased about the garden, and had dropped his shoes and coat.<br>
+        Little Benjamin sat down beside his cousin and assured him that Mr. McGregor had gone out in a gig, and Mrs. McGregor also; and certainly for the day, because she was wearing her best bonnet.<br>
+
+page_s.10
+    p.10_1
+        <img src="./images/20-tb.jpg" alt="Led away" title="Led away" /><br>
+        "The Whisper"<br>
+    p.10_2
+        Peter said he hoped that it would rain.<br>        
+        At this point old Mrs. Rabbit's voice was heard inside the rabbit hole, calling: &quot;Cotton-tail! Cotton-tail! fetch some more camomile!&quot;<br>
+        Peter said he thought he might feel better if he went for a walk.<br>
+
+page_s.11
+    p.11_1
+        <img src="./images/23-tb.jpg" alt="Looking Down on the Garden" title="Looking Down on the Garden" /><br>
+        "Looking Down on the Garden"<br>
+    p.11_1
+        They went away hand in hand, and got upon the flat top of the wall at the bottom of the wood. From here they looked down into Mr. McGregor's garden. Peter's coat and shoes were plainly to be seen upon the scarecrow, topped with an old tam-o'-shanter of Mr. McGregor's.<br>
+
+page_s.12	
+    p.12_1
+        <a href="./images/24.jpg"><img src="./images/24-tb.jpg" alt="Falling" title="Falling" /></a><br>
+        "Falling"<br>
+    p.12_2
+        <br />Little Benjamin said: &quot;It spoils people's clothes to squeeze under a gate; the proper way to get in is to climb down a pear-tree.&quot;<br>
+        Peter fell down head first; but it was of no consequence, as the bed below was newly raked and quite soft.<br>
+        It had been sown with lettuces.<br>
+
+page_s.13
+    p.13_1
+        <img src="./images/27-tb.jpg" alt="Footmarks" title="Footmarks" /><br>
+        "Footmarks"<br>
+    p.13_2
+        They left a great many odd little footmarks all over the bed, especially little Benjamin, who was wearing clogs.<br>
+
+page_s.14	
+    p.14_1
+        <img src="./images/28-tb.jpg" alt="Tam" title="Tam" /><br>
+        "Footmarks"<br>
+    p.14_2
+        Little Benjamin said that the first thing to be done was to get back Peter's clothes, in order that they might be able to use the pocket-handkerchief.<br>
+        They took them off the scarecrow. There had been rain during the night; there was water in the shoes, and the coat was somewhat shrunk.<br>
+        Benjamin tried on the tam-o'-shanter, but it was too big for him.<br>
+
+page_s.15
+    p.15_1
+        <img src="./images/31-tb.jpg" alt="Filling the pockets" title="Filling the Pockets" /><br>
+        "Filling the pockets"<br>
+    p.15_2
+        Then he suggested that they should fill the pocket-handkerchief with onions, as a little present for his Aunt.<br>
+        Peter did not seem to be enjoying himself; he kept hearing noises.<br>
+
+page_s.16	
+    p.16_1
+        <img src="./images/32-tb.jpg" alt="Munching lettuce" title="Munching Lettuce" /><br>
+        "Munching lettuce"<br>
+    p.16_2
+        Benjamin, on the contrary, was perfectly at home, and ate a lettuce leaf. He said that he was in the habit of coming to the garden with his father to get lettuces for their Sunday dinner.<br>
+        (The name of little Benjamin's papa was old Mr. Benjamin Bunny.)<br>
+        The lettuces certainly were very fine.<br>
+
+page_s.17
+    p.17_1
+        <img src="./images/35-tb.jpg" alt="Dropping Onions" title="Dropping Onions" /><br>
+        "Dropping Onions"<br>
+    p.17_2
+        Peter did not eat anything; he said he should like to go home. Presently he dropped half the onions.<br>
+
+page_s.18
+    p.18_1
+        <img src="./images/36-tb.jpg" alt="He boldly led the way" title="He boldly led the way" /><br>
+        "He boldly led the way"<br>
+    p.18_2
+        Little Benjamin said that it was not possible to get back up the pear-tree with a load of vegetables. He led the way boldly towards the other end of the garden. They went along a little walk on planks, under a sunny, red brick wall.<br>
+        The mice sat on their doorsteps cracking cherry-stones; they winked at Peter Rabbit and little Benjamin Bunny.<br>
+
+page_s.19
+    p.19_1
+        <img src="./images/39-tb.jpg" alt="Dropped Again" title="Dropped Again" /><br>
+        "Dropped Again"<br>
+    p.19_2
+        Presently Peter let the pocket-handkerchief go again.<br>
+
+page_s.20
+    p.20_1
+        <img src="./images/40-tb.jpg" alt="Hearing Noises" title="Hearing Noises" /><br>
+        "Hearing Noises"<br>
+    p.20_2
+        They got amongst flower-pots, and frames, and tubs. Peter heard noises worse than ever; his eyes were as big as lolly-pops!<br>
+        He was a step or two in front of his cousin when he suddenly stopped.<br>
+
+page_s.21
+    p.21_1
+        <img src="./images/43-tb.jpg" alt="Cat" title="Cat" /><br>
+        "Cat"<br>
+    p.21_2
+        This is what those little rabbits saw round that corner!<br>
+        Little Benjamin took one look, and then, in half a minute less than no time, he hid himself and Peter and the onions underneath a large basket....<br>
+
+page_s.22
+    p.22_1
+        <img src="./images/44-tb.jpg" alt="Cat Sniffing Basket" title="Cat Sniffing Basket" /><br>
+        "Cat Sniffing Basket"<br>
+    p.22_2
+        The cat got up and stretched herself, and came and sniffed at the basket.<br>
+        Perhaps she liked the smell of onions!<br>
+        Anyway, she sat down upon the top of the basket.<br>
+
+page_s.23
+    p.23_1
+        <img src="./images/47-tb.jpg" alt="Cat on Basket" title="Cat on Basket" /><br>
+        "Cat on Basket"<br>
+    p.23_2
+        She sat there for <i>five hours</i>.<br>
+        <hr style='width: 45%;' />
+        I cannot draw you a picture of Peter and Benjamin underneath the basket, because it was quite dark, and because the smell of onions was fearful; it made Peter Rabbit and little Benjamin cry.<br>
+        The sun got round behind the wood, and it was quite late in the afternoon; but still the cat sat upon the basket.<br>
+
+page_s.24
+    p.24_1
+        <img src="./images/48-tb.jpg" alt="Benjamin" title="Benjamin" /><br>
+        "Benjamin"<br>
+    p.24_2
+        At length there was a pitter-patter, pitter-patter, and some bits of mortar fell from the wall above.<br>
+        The cat looked up and saw old Mr. Benjamin Bunny prancing along the top of the wall of the upper terrace.<br>
+        He was smoking a pipe of rabbit-tobacco, and had a little switch in his hand.<br>
+        He was looking for his son.<br>
+
+page_s.25	
+    p.25_1
+        <img src="./images/51-tb.jpg" alt="Benjamin Pounces" title="Benjamin Pounces" /><br>
+        "Benjamin Pounces"<br>
+    p.25_2
+        Old Mr. Bunny had no opinion whatever of cats.<br>
+        He took a tremendous jump off the top of the wall on to the top of the cat, and cuffed it off the basket, and kicked it into the greenhouse, scratching off a handful of fur.<br>
+        The cat was too much surprised to scratch back.<br>
+
+page_s.26
+    p.26_1
+        <img src="./images/52-tb.jpg" alt="By the Ears" title="By The Ears" /><br>
+        "By The Ears"<br>
+    p.26_2
+        When old Mr. Bunny had driven the cat into the greenhouse, he locked the door.<br>
+        Then he came back to the basket and took out his son Benjamin by the ears, and whipped him with the little switch.<br>
+        Then he took out his nephew Peter.<br>
+
+page_s.27
+    p.27_1
+        <img src="./images/55-tb.jpg" alt="Marching" title="Marching" /><br>
+        "Marching"<br>
+    p.27_2
+        Then he took out the handkerchief of onions, and marched out of the garden.<br>
+
+page_s.28
+    p.28_1
+        <img src="./images/57-tb.jpg" alt="In the Garden" title="In the Garden" /><br>
+        "In the Garden"<br>
+    p.28_2
+        When Mr. McGregor returned about half an hour later he observed several things which perplexed him.<br>
+        It looked as though some person had been walking all over the garden in a pair of clogs&mdash;only the footmarks were too ridiculously little!<br>
+        Also he could not understand how the cat could have managed to shut herself up <i>inside</i> the greenhouse, locking the door upon the <i>outside</i>.<br>
+
+page_s.29
+    p.29_1
+        <img src="./images/58-tb.jpg" alt="Home Again" title="Home Again" /><br>
+        "Home Again"<br>
+    p.29_2
+        When Peter got home his mother forgave him, because she was so glad to see that he had found his shoes and coat. Cotton-tail and Peter folded up the pocket-handkerchief, and old Mrs. Rabbit strung up the onions and hung them from the kitchen ceiling, with the bunches of herbs and the rabbit-tobacco.<br>
+    p.29_3
+         THE END <br>

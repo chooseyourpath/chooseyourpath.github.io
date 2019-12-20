@@ -1,0 +1,187 @@
+<!doctype html>
+<!-- version Dec 2,2019 -->
+<html lang="en">
+
+<head>
+     <script>
+          // set one global parameter for the tsv file
+          var filePathAndName = "14407.dedlee.tsv";  
+     </script>
+     <meta charset="UTF-8">
+     <script src="../../static/doT/doT.min.js"></script>
+     <script src="../../static/jquery/1.10.1/jquery.min.js"></script>
+     <script src="../../static/sweetalert2/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+
+     <script src="../../static/hammerjs/hammer.js"></script>
+
+     <script src="../../static/dedalus/dedalus.js"></script>
+     <script src="../../static/dedalus/dedalus-web.js"></script>
+     <script src="../../static/dedalus/dedalus-dedlee.js"></script>
+
+     <!--  -->
+     <script src="../../static/common/recording.js"></script>
+
+     <!-- story styling -->
+     <!-- was from theme/plainWithScrolling/*.css -->
+     <link rel="stylesheet" href="theme/story.css">
+     <script id='getImagesForRecordingButtons' src="theme/recordingImages.js"></script>
+     <link rel="stylesheet" href="theme/recording.css">
+     <link rel="stylesheet" href="theme/pagefooter.css">
+
+
+     <script id='parseParameters'>
+          console.log("parseParameters:Start");
+          const params = new URLSearchParams(document.location.search);
+
+          var screenreader = params.get("screenreader");
+          if (null != screenreader) {
+               //console.log("screenreader param is there, setting screenreader to true");
+               screenreader = true;
+          } else {
+               //console.log("parseParameters:No 'screenreader' parameters set, setting screenreader to false");
+               screenreader = false;
+          }
+
+
+          var recordButton = params.get("recordbutton");
+          var playButton = params.get("playbutton");
+          if (null == playButton && null == recordButton) {
+               console.log("null == playButton && null == recordButton");
+               var readerID = params.get("readerID");
+               if (null != readerID) {
+                    console.log("parseParameters:readerID param is there, reader name=" + readerID);
+                    var currentReaderID = readerID;
+                    console.log("parseParameters:setting currentReaderID=" + currentReaderID);
+               } else {
+                    //console.log("parseParameters: No 'readerID', setting it to 'unknownReader'");
+                    var currentReaderID = 'default';
+                    console.log("parseParameters: No 'readerID'. setting CurentReaderID=" + currentReaderID);
+               }
+
+          } else {
+
+               if (null != recordButton) {
+                    //console.log("parseParameters:settingRecordingParameters");
+                    recordButton = true;
+                    var recorderID = params.get("recorderID");
+                    if (null != recorderID) {
+                         console.log("parseParameters:recorderID param is there, recorder name=" + recorderID);
+                         var currentRecorderID = recorderID;
+                         console.log("parseParameters:setting currentRecorderID=" + currentRecorderID);
+                    } else {
+                         //console.log("parseParameters: No 'recorderID', setting it to 'unknownRecorder'");
+                         var currentRecorderID = 'default';
+                         console.log("parseParameters: No 'recorderID'. setting CurentRecorderID=" + currentRecorderID);
+                    }
+               } else {
+                    //console.log("parseParameters:No recording Parameters set");
+                    recordButton = false;
+               }
+
+
+               if (null != playButton) {
+                    //console.log("parseParameters:settingPlayingParameters");
+                    playButton = true;
+
+                    var readerID = params.get("readerID");
+                    if (null != readerID) {
+                         console.log("parseParameters:readerID param is there, reader name=" + readerID);
+                         var currentReaderID = readerID;
+                         console.log("parseParameters:setting currentReaderID=" + currentReaderID);
+                    } else {
+                         //console.log("parseParameters: No 'readerID', setting it to 'unknownReader'");
+                         var currentReaderID = 'default';
+                         console.log("parseParameters: No 'readerID'. setting CurentReaderID=" + currentReaderID);
+                    }
+               } else {
+                    //console.log("parseParameters:No playing Parameters set");
+                    playButton = false;
+               }
+
+
+          }
+
+
+          //special case
+          var customerID = params.get("customerID");
+          if (null != customerID) {
+               console.log("customerID param is there, customerID=" + customerID);
+               var currentCustomerID = customerID;
+               console.log("currentCustomerID=" + currentCustomerID);
+          } else {
+               var currentCustomerID = "unknownCustomer";
+               console.log("parseParameters: No 'currentCustomerID',  setting currentCustomerID=" + currentCustomerID);
+          }
+
+          var bookID = params.get("bookID");
+          if (null != bookID) {
+               //console.log("bookID param is there, bookID=" + bookID);
+               var currentBookID = bookID;
+               console.log("bookID param is there, setting currentBookID=" + currentBookID);
+          } else {
+               var currentBookID = "unknownBook";
+               console.log("parseParameters: No 'bookID',  setting currentBookID=" + currentBookID);
+          }
+
+          console.log("parseParameters:End");
+
+     </script>
+
+</head>
+
+<body>
+     <div id="dedleeSource" style="display:none">
+     </div>
+
+     <script type="text/javascript" src="../../static/common/FileHelper.js "></script>
+     <script>
+          //var filePathAndName = "14407.dedlee.tsv";
+          var dave = FileHelper.readStringFromFileAtPath(filePathAndName);
+          document.getElementById("dedleeSource").innerHTML = dave;
+     </script>
+
+
+
+
+     <div id="story"></div>
+
+
+     <div id="wrapper">
+          <div id="title"></div>
+          <div id="host"></div>
+          <!-- <div id="inventoryHostWrapper"> -->
+          <!-- <h2>Inventory</h2> -->
+          <!-- <div id="inventoryHost"></div> -->
+          <!-- </div> -->
+     </div>
+
+     <div id="interactionHost"></div>
+
+     <div id="undoStageHost"></div>
+
+     <div id="header">
+          &bull;<a href="../../14407.html">Back to Menu</a> &bull;
+          <a id="saveHost" href="#">Set Bookmark</a> &bull; <a id="restoreHost" href="#">Use Bookmark</a> &bull; <a
+               id="resetHost" href="#">Go Back To Start</a>
+     </div>
+
+     <script>
+          $(function () {
+               new DedalusWeb({
+                    dedleeSource: $('#dedleeSource'),
+                    domSource: $('#story'),
+                    domTarget: $('#host'),
+                    titleTarget: $('#title'),
+                    inventoryTarget: $('#inventoryHost'),
+                    interactionTarget: $('#interactionHost'),
+                    undoTarget: $('#undoHost'),
+                    undoStageTarget: $('#undoStageHost'),
+                    saveTarget: $('#saveHost'),
+                    restoreTarget: $('#restoreHost'),
+                    resetTarget: $('#resetHost'),
+               });
+          });
+     </script>
+</body>
+
+</html>
